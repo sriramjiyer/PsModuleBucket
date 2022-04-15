@@ -15,7 +15,7 @@
     ],
     "license": "Unknown",
     "homepage": "https://www.powershellgallery.com/packages/DbData",
-    "module": {
+    "psmodule": {
         "name": "DbData"
     },
     "checkver": {
