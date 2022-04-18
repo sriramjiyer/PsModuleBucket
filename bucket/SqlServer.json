@@ -1,5 +1,5 @@
 {
-    "url": "https://www.powershellgallery.com/Package/SqlServer/21.1.18256%23/mod.nupkg",
+    "url": "https://www.powershellgallery.com//Package/SqlServer/21.1.18256#/mod.nupkg",
     "description": [
         "This module allows SQL Server developers, administrators and business intelligence professionals to automate database development and server administration, as well as both multidimensional and tabular cube processing.",
         "",
@@ -9,24 +9,24 @@
     ],
     "autoupdate": {
         "hash": {
-            "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'SqlServer' and Version eq '$version'",
+            "url": "https://www.powershellgallery.com//api/v2/Packages()?$filter=Id eq 'SqlServer' and Version eq '$version'",
             "regex": "<d:PackageHash>$base64<.d:PackageHash>"
         },
-        "url": "https://www.powershellgallery.com/Package/SqlServer/$version%23/mod.nupkg"
+        "url": "https://www.powershellgallery.com//Package/SqlServer/$version#/mod.nupkg"
     },
     "version": "21.1.18256",
-    "depends": {
+    "depends": [
         
-    },
+    ],
     "license": {
         "url": "https://docs.microsoft.com/sql/relational-databases/scripting/sql-server-powershell-license-terms"
     },
-    "homepage": "https://www.powershellgallery.com/packages/SqlServer",
+    "homepage": "https://www.powershellgallery.com//packages/SqlServer",
     "psmodule": {
         "name": "SqlServer"
     },
     "checkver": {
-        "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'SqlServer' and IsLatestVersion eq true",
+        "url": "https://www.powershellgallery.com//api/v2/Packages()?$filter=Id%20eq%20'SqlServer'%20and%20IsLatestVersion%20eq%20true",
         "replace": "${ver}",
         "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
     },

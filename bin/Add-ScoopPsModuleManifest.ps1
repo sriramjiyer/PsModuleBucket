@@ -69,7 +69,7 @@ process {
     if ( -not $ModuleInfo ) {
         throw "Powershell module $Name not found in Powershell gallery"
     }
-    $Dependencies = $ModuleInfo.Dependencies -split ':[^:]+:\|*' | Where-Object { $_ }
+    $Dependencies = @( $ModuleInfo.Dependencies -split ':[^:]+:\|*' | Where-Object { $_ } )
     $Dependencies |
     ForEach-Object { 
         try {
