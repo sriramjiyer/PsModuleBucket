@@ -1,0 +1,30 @@
+{
+    "checkver": {
+        "replace": "${ver}",
+        "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>",
+        "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.ResourceGraph' and IsLatestVersion eq true"
+    },
+    "homepage": "https://www.powershellgallery.com/packages/Az.ResourceGraph",
+    "license": {
+        "url": "https://aka.ms/azps-license"
+    },
+    "version": "0.12.0",
+    "depends": "PsModule-Az.Accounts",
+    "hash": "sha512:bb2cd84d712a70c801f8d45f42819542638567414b0404b4e9ee230a2d38b0a4fe4c5863d3fb3c41bead6f4aed88e59c9e6652a96d4b03dfab374c3b944e4187",
+    "autoupdate": {
+        "hash": {
+            "regex": "<d:PackageHash>$base64<.d:PackageHash>",
+            "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.ResourceGraph' and Version eq '$version'"
+        },
+        "url": "https://www.powershellgallery.com/api/v2/Package/Az.ResourceGraph/$version#/mod.nupkg"
+    },
+    "module": {
+        "name": "Az.ResourceGraph"
+    },
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.ResourceGraph/0.12.0#/mod.nupkg",
+    "description": [
+        "Microsoft Azure PowerShell - Azure Resource Graph cmdlets in Windows PowerShell and PowerShell Core. Allows querying resources with a powerful query language.",
+        "",
+        "For more information on Resource Graph, please visit the following: https://docs.microsoft.com/azure/governance/resource-graph/"
+    ]
+}
