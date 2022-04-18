@@ -1,5 +1,5 @@
 {
-    "url": "https://www.powershellgallery.com//Package/Az.ResourceGraph/0.12.0#/mod.nupkg",
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.ResourceGraph/0.12.0#/mod.nupkg",
     "description": [
         "Microsoft Azure PowerShell - Azure Resource Graph cmdlets in Windows PowerShell and PowerShell Core. Allows querying resources with a powerful query language.",
         "",
@@ -7,22 +7,22 @@
     ],
     "autoupdate": {
         "hash": {
-            "url": "https://www.powershellgallery.com//api/v2/Packages()?$filter=Id eq 'Az.ResourceGraph' and Version eq '$version'",
+            "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.ResourceGraph' and Version eq '$version'",
             "regex": "<d:PackageHash>$base64<.d:PackageHash>"
         },
-        "url": "https://www.powershellgallery.com//Package/Az.ResourceGraph/$version#/mod.nupkg"
+        "url": "https://www.powershellgallery.com/api/v2/Package/Az.ResourceGraph/$version#/mod.nupkg"
     },
     "version": "0.12.0",
     "depends": "Az.Accounts",
     "license": {
         "url": "https://aka.ms/azps-license"
     },
-    "homepage": "https://www.powershellgallery.com//packages/Az.ResourceGraph",
+    "homepage": "https://www.powershellgallery.com/packages/Az.ResourceGraph",
     "psmodule": {
         "name": "Az.ResourceGraph"
     },
     "checkver": {
-        "url": "https://www.powershellgallery.com//api/v2/Packages()?$filter=Id%20eq%20'Az.ResourceGraph'%20and%20IsLatestVersion%20eq%20true",
+        "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.ResourceGraph'%20and%20IsLatestVersion%20eq%20true",
         "replace": "${ver}",
         "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
     },

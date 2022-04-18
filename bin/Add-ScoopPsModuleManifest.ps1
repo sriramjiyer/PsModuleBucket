@@ -35,12 +35,12 @@ begin {
             Query  = $Filter
         }
         # $Uri.ToString()
-        'https://www.powershellgallery.com/{0}{1}' -f
+        'https://www.powershellgallery.com{0}{1}' -f
         $(
             switch -Regex ($Type) {
                 'query|checkver|hash' { '/api/v2/Packages()' }
                 'home' { "/packages/$ModuleName" }
-                'download' { "/Package/$ModuleName/`$version#/mod.nupkg" }
+                'download' { "/api/v2/Package/$ModuleName/`$version#/mod.nupkg" }
             }
         ),
         $(

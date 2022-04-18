@@ -1,5 +1,5 @@
 {
-    "url": "https://www.powershellgallery.com//Package/Az.KeyVault/4.3.1#/mod.nupkg",
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.KeyVault/4.3.1#/mod.nupkg",
     "description": [
         "Microsoft Azure PowerShell - Key Vault service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.",
         "",
@@ -7,22 +7,22 @@
     ],
     "autoupdate": {
         "hash": {
-            "url": "https://www.powershellgallery.com//api/v2/Packages()?$filter=Id eq 'Az.KeyVault' and Version eq '$version'",
+            "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.KeyVault' and Version eq '$version'",
             "regex": "<d:PackageHash>$base64<.d:PackageHash>"
         },
-        "url": "https://www.powershellgallery.com//Package/Az.KeyVault/$version#/mod.nupkg"
+        "url": "https://www.powershellgallery.com/api/v2/Package/Az.KeyVault/$version#/mod.nupkg"
     },
     "version": "4.3.1",
     "depends": "Az.Accounts",
     "license": {
         "url": "https://aka.ms/azps-license"
     },
-    "homepage": "https://www.powershellgallery.com//packages/Az.KeyVault",
+    "homepage": "https://www.powershellgallery.com/packages/Az.KeyVault",
     "psmodule": {
         "name": "Az.KeyVault"
     },
     "checkver": {
-        "url": "https://www.powershellgallery.com//api/v2/Packages()?$filter=Id%20eq%20'Az.KeyVault'%20and%20IsLatestVersion%20eq%20true",
+        "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.KeyVault'%20and%20IsLatestVersion%20eq%20true",
         "replace": "${ver}",
         "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
     },
