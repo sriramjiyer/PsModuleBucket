@@ -9,7 +9,7 @@
         "url": "https://aka.ms/azps-license"
     },
     "version": "0.12.0",
-    "depends": "PsModule-Az.Accounts",
+    "depends": "Az.Accounts",
     "hash": "sha512:bb2cd84d712a70c801f8d45f42819542638567414b0404b4e9ee230a2d38b0a4fe4c5863d3fb3c41bead6f4aed88e59c9e6652a96d4b03dfab374c3b944e4187",
     "autoupdate": {
         "hash": {
