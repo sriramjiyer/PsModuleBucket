@@ -1,12 +1,6 @@
 {
     "url": "https://www.powershellgallery.com/api/v2/Package/SqlServer/21.1.18256#/mod.nupkg",
-    "description": [
-        "This module allows SQL Server developers, administrators and business intelligence professionals to automate database development and server administration, as well as both multidimensional and tabular cube processing.",
-        "",
-        "For Release Notes, expand the Package Details section on this page.",
-        "",
-        "For automation with SSRS & Power BI Report Server, use the ReportingServicesTools module available at https://www.powershellgallery.com/packages/ReportingServicesTools"
-    ],
+    "description": "This module allows SQL Server developers, administrators and business intelligence professionals to automate database development and server administration, as well as both multidimensional and tabular cube processing.  For Release Notes, expand the Package Details section on this page.  For automation with SSRS & Power BI Report Server, use the ReportingServicesTools module available at https://www.powershellgallery.com/packages/ReportingServicesTools",
     "autoupdate": {
         "hash": {
             "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'SqlServer' and Version eq '$version'",
@@ -15,10 +9,9 @@
         "url": "https://www.powershellgallery.com/api/v2/Package/SqlServer/$version#/mod.nupkg"
     },
     "version": "21.1.18256",
-    "depends": [
-        
-    ],
+    "depends": "",
     "license": {
+        "identifier": "Refer to Webpage",
         "url": "https://docs.microsoft.com/sql/relational-databases/scripting/sql-server-powershell-license-terms"
     },
     "homepage": "https://www.powershellgallery.com/packages/SqlServer",

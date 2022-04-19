@@ -9,9 +9,7 @@
         "url": "https://www.powershellgallery.com/api/v2/Package/Disposable/$version#/mod.nupkg"
     },
     "version": "1.5.1",
-    "depends": [
-        
-    ],
+    "depends": "",
     "license": "Unknown",
     "homepage": "https://www.powershellgallery.com/packages/Disposable",
     "psmodule": {
