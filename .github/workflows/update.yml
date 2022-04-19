@@ -17,7 +17,7 @@ jobs:
       - name: ⬇ Checkout repo
         uses: actions/checkout@master
       - name: ♻ Run autoupdate
-        uses: foosel/scoop-checkver-action@main
+        uses: sriramjiyer/scoop-checkver-action@main
         with:
           bucket: bucket
           force: ${{ github.event.inputs.force }}
