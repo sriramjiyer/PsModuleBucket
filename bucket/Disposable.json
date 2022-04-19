@@ -9,12 +9,11 @@
         "url": "https://www.powershellgallery.com/api/v2/Package/Disposable/$version#/mod.nupkg"
     },
     "version": "1.5.1",
-    "depends": "",
-    "license": "Unknown",
-    "homepage": "https://www.powershellgallery.com/packages/Disposable",
     "psmodule": {
         "name": "Disposable"
     },
+    "license": "Unknown",
+    "homepage": "https://www.powershellgallery.com/packages/Disposable",
     "checkver": {
         "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Disposable'%20and%20IsLatestVersion%20eq%20true",
         "replace": "${ver}",
