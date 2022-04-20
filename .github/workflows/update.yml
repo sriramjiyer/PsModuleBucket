@@ -24,7 +24,7 @@ jobs:
       - name: 🚀 Deploy changes
         run: |
           # Generate new manifests
-          bin/Add-ScoopPsModuleManifest.ps1
+          pwsh bin/Add-ScoopPsModuleManifest.ps1
           # set git author
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
