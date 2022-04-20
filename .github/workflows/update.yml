@@ -36,7 +36,7 @@ jobs:
               git add "$file"
               git commit -m "$message"
             fi
-          done < <(git diff --name-only)
+          done < <(git diff --name-only;git ls-files -o)
 
           # finally push
           git push
