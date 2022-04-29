@@ -5,3 +5,4 @@ DbData
 Disposable
 SqlServer
 SHiPS
+Microsoft.PowerShell.SecretManagement
