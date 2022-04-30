@@ -55,7 +55,7 @@ process {
         Write-Host 'here'
         Get-Content -Path "$psscriptroot/module_list.txt" |
         & "$psscriptroot/Add-ScoopPsModuleManifest.ps1" -SkipExisting -PassThru
-        
+
         return
     }
     $ManifestPath = "$BucketDir/$Name.json"
@@ -108,11 +108,11 @@ process {
         }
     }
 
-    $Dependencies = 
+    $Dependencies =
     $ModuleInfo.Dependencies -split ':[^:]+:\|*' |
     Where-Object { $_ } |
     & "$psscriptroot\Add-ScoopPsModuleManifest.ps1"  -Name $_ -PassThru -SkipExisting
-        
+
     if ($Dependencies) {
         $JsonHash.depends = $Dependencies
     }
