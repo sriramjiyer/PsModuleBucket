@@ -1,6 +1,7 @@
 Az.Accounts
 Az.KeyVault
 Az.ResourceGraph
+Az.CosmosDb
 DbData
 Disposable
 SqlServer
