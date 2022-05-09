@@ -8,3 +8,4 @@ SqlServer
 SHiPS
 Microsoft.PowerShell.SecretManagement
 PSLiteDB
+Ldbc
