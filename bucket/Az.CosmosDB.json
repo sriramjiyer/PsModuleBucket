@@ -1,13 +1,4 @@
 {
-    "hash": "sha512:9a55ece75eb616897453b98a902be7f6fcd14e507091ee05682093afb3c71b0715bdb3bf887c625ca83e5fb799986086975f69b59660655474ce3de9085323f9",
-    "url": "https://www.powershellgallery.com/api/v2/Package/Az.CosmosDB/1.7.0#/mod.nupkg",
-    "homepage": "https://www.powershellgallery.com/packages/Az.CosmosDB",
-    "license": {
-        "url": "https://aka.ms/azps-license",
-        "identifier": "Refer to Webpage"
-    },
-    "description": "Microsoft Azure PowerShell - CosmosDB service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.  For more information on CosmosDB, please visit the following: https://docs.microsoft.com/azure/cosmos-db/",
-    "version": "1.7.0",
     "autoupdate": {
         "hash": {
             "regex": "<d:PackageHash>$base64<.d:PackageHash>",
@@ -15,12 +6,21 @@
         },
         "url": "https://www.powershellgallery.com/api/v2/Package/Az.CosmosDB/$version#/mod.nupkg"
     },
+    "description": "Microsoft Azure PowerShell - CosmosDB service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.  For more information on CosmosDB, please visit the following: https://docs.microsoft.com/azure/cosmos-db/",
+    "version": "1.7.0",
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.CosmosDB/1.7.0#/mod.nupkg",
+    "hash": "sha512:9a55ece75eb616897453b98a902be7f6fcd14e507091ee05682093afb3c71b0715bdb3bf887c625ca83e5fb799986086975f69b59660655474ce3de9085323f9",
+    "homepage": "https://www.powershellgallery.com/packages/Az.CosmosDB",
+    "license": {
+        "url": "https://aka.ms/azps-license",
+        "identifier": "Refer to Webpage"
+    },
     "psmodule": {
         "name": "Az.CosmosDB"
     },
     "checkver": {
         "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.CosmosDB'%20and%20IsLatestVersion%20eq%20true",
-        "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>",
-        "replace": "${ver}"
+        "replace": "${ver}",
+        "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
     }
 }
