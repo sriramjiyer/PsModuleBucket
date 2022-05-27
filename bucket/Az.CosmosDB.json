@@ -1,26 +1,26 @@
 {
-    "license": {
-        "identifier": "Refer to Webpage",
-        "url": "https://aka.ms/azps-license"
+    "checkver": {
+        "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>",
+        "replace": "${ver}",
+        "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.CosmosDB'%20and%20IsLatestVersion%20eq%20true"
     },
-    "autoupdate": {
-        "url": "https://www.powershellgallery.com/api/v2/Package/Az.CosmosDB/$version#/mod.nupkg",
-        "hash": {
-            "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.CosmosDB' and Version eq '$version'",
-            "regex": "<d:PackageHash>$base64<.d:PackageHash>"
-        }
-    },
-    "url": "https://www.powershellgallery.com/api/v2/Package/Az.CosmosDB/1.8.0#/mod.nupkg",
     "psmodule": {
         "name": "Az.CosmosDB"
     },
-    "hash": "sha512:40147a45097f258dea192e71a0337c46fcf3942cb8a3347a78c125392d59cda58e8083c13fb401201286621c1b77949ed31a7c1046b1a61cdb389c35158a7018",
-    "version": "1.8.0",
+    "license": {
+        "url": "https://aka.ms/azps-license",
+        "identifier": "Refer to Webpage"
+    },
     "description": "Microsoft Azure PowerShell - CosmosDB service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.  For more information on CosmosDB, please visit the following: https://docs.microsoft.com/azure/cosmos-db/",
+    "hash": "sha512:40147a45097f258dea192e71a0337c46fcf3942cb8a3347a78c125392d59cda58e8083c13fb401201286621c1b77949ed31a7c1046b1a61cdb389c35158a7018",
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.CosmosDB/1.8.0#/mod.nupkg",
+    "version": "1.8.0",
     "homepage": "https://www.powershellgallery.com/packages/Az.CosmosDB",
-    "checkver": {
-        "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.CosmosDB'%20and%20IsLatestVersion%20eq%20true",
-        "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>",
-        "replace": "${ver}"
+    "autoupdate": {
+        "hash": {
+            "regex": "<d:PackageHash>$base64<.d:PackageHash>",
+            "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.CosmosDB' and Version eq '$version'"
+        },
+        "url": "https://www.powershellgallery.com/api/v2/Package/Az.CosmosDB/$version#/mod.nupkg"
     }
 }
