@@ -12,6 +12,7 @@
         },
         "url": "https://www.powershellgallery.com/api/v2/Package/Az.CosmosDB/$version#/mod.nupkg"
     },
+    "depends": "Az.Accounts",
     "license": {
         "identifier": "Refer to Webpage",
         "url": "https://aka.ms/azps-license"
