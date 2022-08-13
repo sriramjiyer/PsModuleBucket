@@ -9,3 +9,4 @@ SHiPS
 Microsoft.PowerShell.SecretManagement
 PSLiteDB
 Ldbc
+ImportExcel
