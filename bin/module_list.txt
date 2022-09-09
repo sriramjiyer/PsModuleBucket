@@ -10,3 +10,4 @@ Microsoft.PowerShell.SecretManagement
 PSLiteDB
 Ldbc
 ImportExcel
+CredentialManager
