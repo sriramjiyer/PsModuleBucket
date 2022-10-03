@@ -12,3 +12,4 @@ Ldbc
 ImportExcel
 CredentialManager
 BetterCredentials
+PowerHTML
