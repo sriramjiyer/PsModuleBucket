@@ -13,3 +13,4 @@ ImportExcel
 CredentialManager
 BetterCredentials
 PowerHTML
+Splatter
