@@ -14,3 +14,4 @@ CredentialManager
 BetterCredentials
 PowerHTML
 Splatter
+OpenApi.Pwsh
