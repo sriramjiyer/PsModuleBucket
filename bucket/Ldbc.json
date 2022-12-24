@@ -4,7 +4,7 @@
         "identifier": "Refer to Webpage"
     },
     "description": "LiteDB Cmdlets, the document store in PowerShell",
-    "url": "https://www.powershellgallery.com/api/v2/Package/Ldbc/0.8.4#/mod.nupkg",
+    "url": "https://www.powershellgallery.com/api/v2/Package/Ldbc/0.8.5#/mod.nupkg",
     "psmodule": {
         "name": "Ldbc"
     },
@@ -13,8 +13,8 @@
         "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Ldbc'%20and%20IsLatestVersion%20eq%20true",
         "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
     },
-    "hash": "sha512:6e072caf5bd37d0465028e66cbe9e7b73596152a8578e599acf47a5f0666edff14c0db47a40b73aad556f21039faa5738fe8833b92d4b31d6b1e0b710e0695a4",
-    "version": "0.8.4",
+    "hash": "sha512:f6f628476e57ba2a22ff30dec5e8f3d43ab709802b40d00bb0776c58d36a0dbc228de84b649ef8ef9a89b0b1d16a1b6c01bfc7c1104a8ea22221f82c5ab267d5",
+    "version": "0.8.5",
     "homepage": "https://www.powershellgallery.com/packages/Ldbc",
     "autoupdate": {
         "url": "https://www.powershellgallery.com/api/v2/Package/Ldbc/$version#/mod.nupkg",
