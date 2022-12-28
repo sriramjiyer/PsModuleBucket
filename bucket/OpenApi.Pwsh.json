@@ -1,5 +1,5 @@
 {
-    "version": "0.7.0",
+    "version": "0.8.0",
     "autoupdate": {
         "hash": {
             "regex": "<d:PackageHash>$base64<.d:PackageHash>",
@@ -12,8 +12,8 @@
     },
     "homepage": "https://www.powershellgallery.com/packages/OpenApi.Pwsh",
     "description": "Import, edit, and invoke OpenAPI documents.",
-    "url": "https://www.powershellgallery.com/api/v2/Package/OpenApi.Pwsh/0.7.0#/mod.nupkg",
-    "hash": "sha512:f371dd341c0ee015fe4314789c0f6f8013306432165558d41b460dc03405e957a9ac00a725f409154d27d8eabb766c36050dc577aa0cc4361b04b991e6f27047",
+    "url": "https://www.powershellgallery.com/api/v2/Package/OpenApi.Pwsh/0.8.0#/mod.nupkg",
+    "hash": "sha512:609f43af060b1a148f797f7f0139f96574fec2708f5f5a7e411726f8d6bc2ab3b080dd926801438482307c3cf66860fa841334ba5bd40cb2abb1077450d1e802",
     "license": {
         "url": "https://github.com/matt9ucci/OpenApi.Pwsh/blob/master/LICENSE",
         "identifier": "Refer to Webpage"
