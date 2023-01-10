@@ -3,6 +3,7 @@ Az.KeyVault
 Az.ResourceGraph
 Az.CosmosDB
 Az.Sql
+Az.OperationalInsights
 DbData
 Disposable
 SqlServer
