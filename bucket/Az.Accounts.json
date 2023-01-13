@@ -1,5 +1,5 @@
 {
-    "url": "https://www.powershellgallery.com/api/v2/Package/Az.Accounts/2.11.0#/mod.nupkg",
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.Accounts/2.11.1#/mod.nupkg",
     "description": "Microsoft Azure PowerShell - Accounts credential management cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.  For more information on account credential management, please visit the following: https://docs.microsoft.com/powershell/azure/authenticate-azureps",
     "autoupdate": {
         "hash": {
@@ -8,7 +8,7 @@
         },
         "url": "https://www.powershellgallery.com/api/v2/Package/Az.Accounts/$version#/mod.nupkg"
     },
-    "version": "2.11.0",
+    "version": "2.11.1",
     "psmodule": {
         "name": "Az.Accounts"
     },
@@ -22,5 +22,5 @@
         "replace": "${ver}",
         "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
     },
-    "hash": "sha512:844472cdbfb1ea6c323dafa96be56980d0b89fc99feda297e784690e68b3501d9cdc625f64626d637c234a11ccf57cb4bfff9b0cc067799a05bef6aaf4002566"
+    "hash": "sha512:66fcd691726bb06a1408ae588ad329c0611afe336bf5ec098de707869a12c0b2ca2ab375a04a28983b594e343bb9c47eb8165045250394ec3030c71a25f02833"
 }
