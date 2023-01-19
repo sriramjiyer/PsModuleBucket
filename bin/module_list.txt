@@ -1,5 +1,6 @@
 Az.Accounts
 Az.KeyVault
+Az.Resources
 Az.ResourceGraph
 Az.CosmosDB
 Az.Sql
