@@ -4,6 +4,7 @@ Az.ResourceGraph
 Az.CosmosDB
 Az.Sql
 Az.OperationalInsights
+Az.CostManagement
 DbData
 Disposable
 SqlServer
