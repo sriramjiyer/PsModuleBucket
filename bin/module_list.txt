@@ -21,3 +21,4 @@ Splatter
 OpenApi.Pwsh
 Wasp
 Reflection
+Autoload
