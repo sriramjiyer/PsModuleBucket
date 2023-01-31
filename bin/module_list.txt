@@ -19,3 +19,4 @@ BetterCredentials
 PowerHTML
 Splatter
 OpenApi.Pwsh
+Wasp
