@@ -2,8 +2,8 @@
     "psmodule": {
         "name": "Az.Sql"
     },
-    "version": "4.2.0",
-    "url": "https://www.powershellgallery.com/api/v2/Package/Az.Sql/4.2.0#/mod.nupkg",
+    "version": "4.3.0",
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.Sql/4.3.0#/mod.nupkg",
     "description": "Microsoft Azure PowerShell - SQL service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.  For more information on SQL, please visit the following: https://docs.microsoft.com/azure/sql-database/",
     "license": {
         "url": "https://aka.ms/azps-license",
@@ -16,7 +16,7 @@
         },
         "url": "https://www.powershellgallery.com/api/v2/Package/Az.Sql/$version#/mod.nupkg"
     },
-    "hash": "sha512:7c58ea82e03fac1b244aa0127d57579ad3da6e6f58a452f83494dac4b784a5e7ea8dd2037baa8ee207c1371c18141ae5331216f0204058d51974509da6bbc003",
+    "hash": "sha512:1ae761c8a039be0f01aef0e0ba0bd07bba3b5ead3c0a4a75639659043f29eae6b972182b4be8520478d39536e6c04c07bb90233a81dba9426fc7b203fdc63716",
     "checkver": {
         "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.Sql'%20and%20IsLatestVersion%20eq%20true",
         "replace": "${ver}",
