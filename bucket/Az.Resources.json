@@ -4,8 +4,8 @@
         "url": "https://aka.ms/azps-license",
         "identifier": "Refer to Webpage"
     },
-    "version": "6.5.2",
-    "hash": "sha512:363b19f8a2f115b68cc4976be0c9004afe81b7907459763a8f6af0ba7163b89d718682e1d4cf69d5e3c133edb1599f6c53b84b9bd74ebd1b62b59d43f659ec3b",
+    "version": "6.5.3",
+    "hash": "sha512:1750913171db13368a27f22a747ec74397720d613f6e07b62103e0726fd5dea5bedabc8256eea29e0402587a81be5477dbf7600c6b64f076fd5cb00dbf01ce40",
     "checkver": {
         "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>",
         "replace": "${ver}",
@@ -22,5 +22,5 @@
     "psmodule": {
         "name": "Az.Resources"
     },
-    "url": "https://www.powershellgallery.com/api/v2/Package/Az.Resources/6.5.2#/mod.nupkg"
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.Resources/6.5.3#/mod.nupkg"
 }
