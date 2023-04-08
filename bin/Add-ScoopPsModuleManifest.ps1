@@ -111,7 +111,7 @@ process {
     $Dependencies =
     $ModuleInfo.Dependencies -split ':[^:]+:\|*' |
     Where-Object { $_ } |
-    & "$psscriptroot\Add-ScoopPsModuleManifest.ps1"  -Name $_ -PassThru -SkipExisting
+    & "$psscriptroot\Add-ScoopPsModuleManifest.ps1" -PassThru -SkipExisting
 
     if ($Dependencies) {
         $JsonHash.depends = $Dependencies
