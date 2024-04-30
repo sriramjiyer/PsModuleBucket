@@ -4,7 +4,7 @@
         "replace": "${ver}",
         "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
     },
-    "hash": "sha512:f0df84d788aaaa4349f5659ff6157459ea530647c6c8cfc61272f6dcdb0d2e77535b02a60cc7ad86902dab77f8500b1a9da880145ccefebb5fdb75df94a765c5",
+    "hash": "sha512:3c3b9d7569f467ce1ecf5f5594febf09823ca9e0391f7f9c8a493d52b010e0efa919cbf7a98cd33ac398d5084718b9b8ea4d4eb317f767628890fb5d7cc49d9b",
     "description": "Microsoft Azure PowerShell: PostgreSql cmdlets",
     "psmodule": {
         "name": "Az.PostgreSql"
@@ -21,7 +21,7 @@
         "identifier": "Refer to Webpage",
         "url": "https://aka.ms/azps-license"
     },
-    "url": "https://www.powershellgallery.com/api/v2/Package/Az.PostgreSql/1.1.0#/mod.nupkg",
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.PostgreSql/1.1.1#/mod.nupkg",
     "depends": "Az.Accounts",
-    "version": "1.1.0"
+    "version": "1.1.1"
 }
